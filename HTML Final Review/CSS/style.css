@@ -1,0 +1,121 @@
+/* Style for body*/
+body {
+
+    margin: 0;
+    padding: 0;
+
+}
+/* Style for header*/
+header {
+
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: #125784;
+
+    padding: 10px 0;
+}
+/* header size adjustment*/
+header > div {
+    flex-grow: 1;
+    height: 100px;
+    width: auto;
+
+    /*The logo img adjustment */
+}
+header > div > a > img{
+    width: auto;
+    height: 110%;
+    padding-top: 7px;
+    padding-left: 8px;
+
+}
+/*removing the list underline, moving it away from the right side of the screen */
+header > nav > menu {
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+    display: flex;
+    color: white;
+    grid-template-columns: 25% 50% 25%;
+}
+/*background image for the masthead and title style */
+.masthead{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../resources/img1.jpg');
+    background-size: cover;
+}
+.masthead div{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.masthead div h1{
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+}
+
+/*adding spacing between the list items */
+header > nav > menu > li{
+    padding-left : 25px ;
+    margin-left: 25px;
+    margin: 25px 25px 25px;
+    color:white;
+    text-decoration-color: white;
+}
+
+header > nav > menu > li a{
+    color: white;
+}
+
+
+.container{
+    display: flex;
+    align-items: initial;
+    justify-content: left;
+    background-color: #f57f17;
+    height: 380vh;
+}
+.submit{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    background-color: #5e35b1;
+    height: 120vh;
+}
+
+
+footer{
+
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+    padding: 1% 4px;
+    content: initial;
+
+
+
+}
+/*footer logo */
+footer> div >a >img {  /*for the image*/
+    width: 80%;
+    height: 80%;
+
+}
+/*footer title */
+footer> section >div >h1 {  /*for the image*/
+   color: white;
+
+}
+/*footer p */
+footer> section >div >p {  /*for the image*/
+    color: white;
+
+}
